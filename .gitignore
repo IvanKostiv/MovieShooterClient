@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# movie_shooter.client
+movie_shooter.client/package-lock.json

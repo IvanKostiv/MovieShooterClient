@@ -1,13 +1,13 @@
-import React from 'react';
-import Routers from './routers';
+import React from "react";
+import "./App.less";
 
-import './App.css';
+import Routers from "./routers.js"
 
 function App() {
   return (
-    <div className="App">
-        <Routers />
-    </div>
+  <div className="App">
+      <Routers />
+  </div>
   );
 }
 

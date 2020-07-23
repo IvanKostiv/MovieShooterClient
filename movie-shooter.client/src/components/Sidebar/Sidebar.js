@@ -1,40 +1,26 @@
 import React, { Component } from "react";
-
-import { Menu, Button } from "antd";
-import "../Sidebar/Sidebar.css";
-
 import { HomeOutlined, SearchOutlined, UserOutlined } from "@ant-design/icons";
+import { Menu } from "antd";
 
 import MovieIcon from "../Icons/MovieIcon";
+import history from "../../history";
 
-const { SubMenu } = Menu;
+import "../Sidebar/Sidebar.css";
 
 class Sidebar extends Component {
-  state = {
-    collapsed: true,
-  };
-
-  open = (isOpen) => {
-    this.setState({
-      collapsed: isOpen,
-    });
+  handleClickMenuItem = (link) => {
+    history.push(link);
   };
 
   render() {
     return (
-      <div
-        style={{ width: 256 }}
-        onMouseEnter={() => this.open(false)}
-        onMouseLeave={() => this.open(true)}
-      >
+      <div style={{ width: 256 }}>
         <Menu
-          defaultSelectedKeys={["1"]}
-          defaultOpenKeys={["sub1"]}
+          defaultSelectedKeys={["home"]}
           mode="inline"
           theme="dark"
-          inlineCollapsed={this.state.collapsed}
           style={{
-            height: "100vh",
+            height: "95vh",
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
@@ -42,31 +28,35 @@ class Sidebar extends Component {
         >
           <Menu.Item
             className="menu-item"
-            key="1"
-            icon={<HomeOutlined style={{ fontSize: "1.5rem" }} />}
+            key="home"
+            icon={<HomeOutlined />}
+            onClick={(e) => this.handleClickMenuItem("/")}
           >
             Home
           </Menu.Item>
 
           <Menu.Item
             className="menu-item"
-            key="2"
-            icon={<MovieIcon style={{ fontSize: "1.5rem" }} />}
+            key="movie"
+            icon={<MovieIcon />}
+            onClick={(e) => this.handleClickMenuItem("/movie")}
           >
             Movie
           </Menu.Item>
 
           <Menu.Item
             className="menu-item"
-            key="3"
-            icon={<SearchOutlined style={{ fontSize: "1.5rem" }} />}
+            key="search"
+            icon={<SearchOutlined />}
+            onClick={(e) => this.handleClickMenuItem("/search")}
           >
             Search
           </Menu.Item>
           <Menu.Item
             className="menu-item"
-            key="4"
-            icon={<UserOutlined style={{ fontSize: "1.5rem" }} />}
+            key="profile"
+            icon={<UserOutlined />}
+            onClick={(e) => this.handleClickMenuItem("/profile")}
           >
             Profile
           </Menu.Item>

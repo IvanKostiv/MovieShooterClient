@@ -1,5 +1,5 @@
 {
-  "name": "movie-shooter.client",
+  "name": "movie_shooter.client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

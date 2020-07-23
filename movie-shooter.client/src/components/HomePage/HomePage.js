@@ -1,9 +1,10 @@
 import React, {Component} from 'react'
 
+
 class HomePage extends Component {
-    render(){
+    render() {
         return (
-            <div>Home page</div>
+            <h1>Home page</h1>
         )
     }
 }

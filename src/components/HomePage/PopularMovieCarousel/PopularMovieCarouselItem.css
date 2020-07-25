@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.background-item-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80vh;
+  width: 25vw;
+  opacity: 0.5;
+  background-color: #d2000f;
+}
+
+.item-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2vh;
+  height: 80vh;
+  width: 25vw;
+  opacity: 1 !important;
+  color: white !important;
+}
+
+.item-button {
+    margin: 2vh;
+    width: 8vw;
+    height: 4.5vh;
+    font-size: 1.2rem !important;
+}

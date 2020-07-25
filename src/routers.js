@@ -9,7 +9,6 @@ import ProfilePage from "./components/ProfilePage/ProfilePage";
 import Sidebar from "./components/Sidebar/Sidebar";
 import history from "./history";
 
-
 const { Sider, Content } = Layout;
 
 class Routers extends Component {
@@ -17,11 +16,16 @@ class Routers extends Component {
     return (
       <Router history={history}>
         <Layout>
-          <Sider collapsible defaultCollapsed width='256'>
+          <Sider collapsible defaultCollapsed width="256">
             <Sidebar></Sidebar>
           </Sider>
           <Layout>
-            <Content>
+            <Content
+              style={{
+                backgroundColor: "#111d2c",
+                overflow: "hidden",
+              }}
+            >
               <Switch>
                 <Route path="/" exact component={HomePage} />
                 <Route path="/movie" component={MoviePage} />

@@ -14,7 +14,7 @@ class Sidebar extends Component {
 
   render() {
     return (
-      <div style={{ width: 256 }}>
+      <div style={{ width: 256, position: 'fixed'}}>
         <Menu
           defaultSelectedKeys={["home"]}
           mode="inline"

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/IvanKostiv.github.io/movie_shooter.client/static/css/main.6fbcb00e.chunk.css",
+    "main.js": "/IvanKostiv.github.io/movie_shooter.client/static/js/main.ac7babde.chunk.js",
+    "main.js.map": "/IvanKostiv.github.io/movie_shooter.client/static/js/main.ac7babde.chunk.js.map",
+    "runtime-main.js": "/IvanKostiv.github.io/movie_shooter.client/static/js/runtime-main.fc1f3e10.js",
+    "runtime-main.js.map": "/IvanKostiv.github.io/movie_shooter.client/static/js/runtime-main.fc1f3e10.js.map",
+    "static/js/2.c72480d8.chunk.js": "/IvanKostiv.github.io/movie_shooter.client/static/js/2.c72480d8.chunk.js",
+    "static/js/2.c72480d8.chunk.js.map": "/IvanKostiv.github.io/movie_shooter.client/static/js/2.c72480d8.chunk.js.map",
+    "index.html": "/IvanKostiv.github.io/movie_shooter.client/index.html",
+    "precache-manifest.13febeddd55b0b7cb7a548c9c0e7973f.js": "/IvanKostiv.github.io/movie_shooter.client/precache-manifest.13febeddd55b0b7cb7a548c9c0e7973f.js",
+    "service-worker.js": "/IvanKostiv.github.io/movie_shooter.client/service-worker.js",
+    "static/css/main.6fbcb00e.chunk.css.map": "/IvanKostiv.github.io/movie_shooter.client/static/css/main.6fbcb00e.chunk.css.map",
+    "static/js/2.c72480d8.chunk.js.LICENSE.txt": "/IvanKostiv.github.io/movie_shooter.client/static/js/2.c72480d8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc1f3e10.js",
+    "static/js/2.c72480d8.chunk.js",
+    "static/css/main.6fbcb00e.chunk.css",
+    "static/js/main.ac7babde.chunk.js"
+  ]
+}
